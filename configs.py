@@ -4,7 +4,7 @@ class Config(object):
   API_ID = int(os.environ.get("API_ID", "6200836"))
   API_HASH = os.environ.get("API_HASH", "d022381d9bd4938b6819f78b919a0da7")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6975963149:AAGPa1l2-5GLZQvE99wN3IiuDlJvBDlNrrY")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Teamsolocrkccbot")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Teamsolocrkccbot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
